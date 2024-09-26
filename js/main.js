@@ -1,9 +1,9 @@
 
 $(document).ready(function(){
 
-    $('#carousel-imagens').slick({
-        autoplay:true                
-        });
+$('#carousel-imagens').slick({
+    autoplay:true                
+    });
 
 $('#telefone').mask('(00) 00000-0000', {
     placeholder: '(DDD) 12345-6789'
@@ -17,9 +17,7 @@ $('#cep').mask('00000-000', {
     placeholder: '012345-678'
 })
 
-$('#carousel-imagens').slick({
-    autoplay:true                
-});
+
 
 $('form').validate({
     rules: {
